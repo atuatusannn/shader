@@ -7,7 +7,7 @@
     "dev": "webpack --mode=development",
     "build": "webpack --mode=production",
     "watch": "webpack --watch",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server --port=5050"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +27,7 @@
     "webpack-glsl-loader": "^1.0.1"
   },
   "dependencies": {
+    "lil-gui": "^0.16.1",
     "three": "^0.137.5"
   }
 }
